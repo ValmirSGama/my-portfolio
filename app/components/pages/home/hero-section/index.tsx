@@ -51,8 +51,8 @@ export const HeroSection = () => {
           <p className="font-mono text-emerald-400">Olá, meu nome é</p>
           <h2 className="text-4xl font-medium mt-2">Valmir Sales</h2>
 
-          <div className="text-gray-400 my-6 text-sm sm:text-base">
-            <div dangerouslySetInnerHTML={{ __html: introduction }} />
+          <div className="text-gray-400 my-6 text-sm sm:text-base"> 
+            {introduction}
           </div>
 
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
