@@ -7,8 +7,8 @@ import { Link } from '@/app/components/link'
 export const HighlightedProjects = () => {
   const projects = [
     {
-      alt: "Imagem Tambmail To Do List",
-      src: "/images/Tambmail To Do List.png",
+      alt: "Imagem Thumbnail To Do List",
+      src: "/images/Thumbnail To Do List.png",
       title: "To Do List",
       description:
       "Este é um projeto de uma aplicação simples e eficiente de lista de tarefas (To-Do List), desenvolvida com o objetivo de facilitar o gerenciamento e a organização de atividades diárias.",
@@ -16,7 +16,7 @@ export const HighlightedProjects = () => {
       slug: "to-do-list"
     },
     {
-      alt: "Imagem Tambmail Relogio Analogico",
+      alt: "Imagem Thumbnail Relogio Analogico",
       src: "/images/Thumbnail Relogio Analogico.png",
       title: "Relógio Analógico",
       description:

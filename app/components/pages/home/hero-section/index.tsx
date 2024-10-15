@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { RichText } from '@/app/components/rich-text'
 
 const technologies = [
   'Java',
@@ -13,30 +14,32 @@ const technologies = [
   'MySQL',
   'AWS',
   'Docker',
-  'Kubernetes',
-];
+  'Kubernetes'
+]
 
 const introduction = `
   Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>, com expertise no 
   <strong>Back-end</strong> e desenvolvendo habilidades no <strong>front</strong>, 
   crio soluções escaláveis e eficientes com foco em performance e segurança. 
   Estou em busca de novas oportunidades. Vamos levar sua ideia para o digital?
-`;
+`
 
 const socials = [
   { icon: <FaGithub />, url: 'https://github.com/ValmirSGama' },
   { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/valmir-sales-tech/' },
   { icon: <FaInstagram />, url: 'https://www.instagram.com/valmir_s_g/' },
-  { icon: <FaYoutube />, url: 'https://www.youtube.com/@valmirSG/featured?app=desktop' },
-];
+  { icon: <FaYoutube />, url: 'https://www.youtube.com/@valmirSG/featured?app=desktop' }
+]
 
 export const HeroSection = () => {
+  
+   // Função que controla suavemente o scroll para o contato
   const handleContact = () => {
-    const contactSection = document.querySelector('#contact');
+    const contactSection = document.querySelector('#contact')
     if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
+      contactSection.scrollIntoView({ behavior: 'smooth' })
     }
-  };
+  }
 
   return (
     <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px]">
@@ -52,7 +55,7 @@ export const HeroSection = () => {
           <h2 className="text-4xl font-medium mt-2">Valmir Sales</h2>
 
           <div className="text-gray-400 my-6 text-sm sm:text-base"> 
-            {introduction}
+          <RichText content={introduction} />
           </div>
 
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
@@ -66,7 +69,7 @@ export const HeroSection = () => {
           </div>
 
           <div className="mt-6 lg:mt-10 flex sm:items-center sm:gap-5 flex-col sm:flex-row">
-            <Button className="w-max shadow-button" onClick={handleContact}>
+            <Button className="w-max shadow-button" onClick={handleContact} /* Camada da função para contato */>
               Entre em contato
               <HiArrowNarrowRight size={18} />
             </Button>
@@ -104,5 +107,5 @@ export const HeroSection = () => {
         </motion.div>
       </div>
     </section>
-  );
-};
+  )
+}
