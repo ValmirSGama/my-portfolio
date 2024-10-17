@@ -19,6 +19,7 @@ const contactFormSchema = z.object({
 
 type ContactFormData = z.infer<typeof contactFormSchema>
 
+//  Cria um formulário de contato que utiliza Zod para validação e Axios para envio dos dados a uma API
 export const ContactForm = () => {
   const {
     handleSubmit,
