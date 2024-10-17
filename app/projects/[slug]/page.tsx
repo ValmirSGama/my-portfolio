@@ -1,6 +1,7 @@
 import { projects } from '@/app/components/pages/project/data'
 import { ProjectDetails } from '@/app/components/pages/project/project-details'
 import { ProjectSections } from '@/app/components/pages/project/project-sections'
+import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 type ProjectProps = {
@@ -22,6 +23,30 @@ export default function Project({ params: { slug } }: ProjectProps) {
   )
 }
 
-export async function generateStaticParams() {
-  return projects.map((project) => ({ slug: project.slug }))
+export async function generateMetadata({
+  params: { slug },
+}: ProjectProps): Promise<Metadata> {
+  const project = projects.find((project) => project.slug === slug)
+
+  if (!project) {
+    return {
+      title: 'Projeto não encontrado',
+      description: '',
+    }
+  }
+
+  return {
+    metadataBase: new URL('http://localhost:3000/'), // Defina o domínio correto aqui
+    title: project.title,
+    description: project.description.raw.replace(/<[^>]+>/g, ''), // Remove tags HTML para a descrição
+    openGraph: {
+      images: [
+        {
+          url: project.pageThumbnail.src,
+          width: 1200,
+          height: 630,
+        }
+      ]
+    }
+  }
 }
