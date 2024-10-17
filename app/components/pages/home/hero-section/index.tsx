@@ -7,33 +7,18 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa'
 import { RichText } from '@/app/components/rich-text'
+import { technologies, introduction, socials } from './data'
 
-const technologies = [
-  'Java',
-  'Spring Boot',
-  'MySQL',
-  'AWS',
-  'Docker',
-  'Kubernetes'
-]
-
-const introduction = `
-  Formado em <strong>Análise e Desenvolvimento de Sistemas</strong>, com expertise no 
-  <strong>Back-end</strong> e desenvolvendo habilidades no <strong>front</strong>, 
-  crio soluções escaláveis e eficientes com foco em performance e segurança. 
-  Estou em busca de novas oportunidades. Vamos levar sua ideia para o digital?
-`
-
-const socials = [
-  { icon: <FaGithub />, url: 'https://github.com/ValmirSGama' },
-  { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/valmir-sales-tech/' },
-  { icon: <FaInstagram />, url: 'https://www.instagram.com/valmir_s_g/' },
-  { icon: <FaYoutube />, url: 'https://www.youtube.com/@valmirSG/featured?app=desktop' }
-]
+const socialIcons = {
+  FaGithub: <FaGithub />,
+  FaLinkedin: <FaLinkedin />,
+  FaInstagram: <FaInstagram />,
+  FaYoutube: <FaYoutube />
+}
 
 export const HeroSection = () => {
-  
-   // Função que controla suavemente o scroll para o contato
+
+  // Função que controla suavemente o scroll para o contato
   const handleContact = () => {
     const contactSection = document.querySelector('#contact')
     if (contactSection) {
@@ -54,8 +39,8 @@ export const HeroSection = () => {
           <p className="font-mono text-emerald-400">Olá, meu nome é</p>
           <h2 className="text-4xl font-medium mt-2">Valmir Sales</h2>
 
-          <div className="text-gray-400 my-6 text-sm sm:text-base"> 
-          <RichText content={introduction} />
+          <div className="text-gray-400 my-6 text-sm sm:text-base">
+            <RichText content={introduction} />
           </div>
 
           <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
@@ -83,7 +68,7 @@ export const HeroSection = () => {
                   className="hover:text-gray-100 transition-colors"
                   rel="noreferrer"
                 >
-                  {contact.icon}
+                  {socialIcons[contact.icon]}
                 </a>
               ))}
             </div>
