@@ -36,7 +36,7 @@ export async function generateMetadata({
   }
 
   return {
-    metadataBase: new URL('http://localhost:3000/'), // Defina o domínio correto aqui
+    metadataBase: new URL('https://seu-dominio.com'), // Defina o domínio correto aqui
     title: project.title,
     description: project.description.raw.replace(/<[^>]+>/g, ''), // Remove tags HTML para a descrição
     openGraph: {

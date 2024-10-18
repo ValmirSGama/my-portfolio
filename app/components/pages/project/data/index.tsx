@@ -64,5 +64,34 @@ export const projects = [
           image: { src: "/images/Thumbnail To Do List.png" }
         }
       ]
-    }
-  ]
+    },
+    {
+      slug: "jogo-de-xadrez",
+      title: "Jogo de Xadrez",
+      description: {
+        raw: `
+          <h5>Características Principais</h5>
+          <ul>
+            <li>Movimentos especiais como Castling, En Passant e Promotion.</li>
+            <li>Tabuleiro com destaque visual em azul para possíveis jogadas.</li>
+            <li>Identificação dos jogadores pelas iniciais das peças em inglês.</li>
+            <li>"P" para Pawn/Peão, "B" para Bishop/Bispo, "C" para Knight/Cavaleiro, "Q" para Queen/Rainha, "K" para King/Rei, "R" para Rook/Torre.</li>
+          </ul>
+        `
+      },
+      technologies: [
+        { name: "Java" }
+      ],
+      githubUrl: "https://github.com/ValmirSGama/sistemaJogoDeXadrez-Java",
+      liveProjectUrl: "https://valmirsgama.github.io/sistemaJogoDeXadrez-Java/",
+      pageThumbnail: { src: "/images/Page Thumbnail Jogo de Xadrez.png" },
+      sections: [
+        {
+          title: "Home",
+          image: { src: "/images/Page Thumbnail Jogo de Xadrez.png"},
+          videoUrl: "/videos/Demo-Xadrez.mp4",
+          videoTitle: "Demo do Jogo de Xadrez"
+        }
+      ]
+    }    
+]

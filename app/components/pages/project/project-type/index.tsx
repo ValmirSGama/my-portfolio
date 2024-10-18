@@ -7,7 +7,9 @@ export type Technology = {
     image: {
       src: string
     }
-  }
+    videoUrl?: string
+    videoTitle?: string
+  }  
   
   export type Project = {
     slug: string

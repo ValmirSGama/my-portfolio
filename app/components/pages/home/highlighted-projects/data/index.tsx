@@ -9,13 +9,13 @@ export const projects = [
       slug: "to-do-list"
     },
     {
-      alt: "Imagem Thumbnail Relogio Analogico",
-      src: "/images/Thumbnail Relogio Analogico.png",
-      title: "Relógio Analógico",
+      alt: "Imagem Thumbnail Jogo de Xadrez",
+      src: "/images/Thumbnail Jogo de Xadrez.png",
+      title: "Jogo de Xadrez",
       description:
-        "Este projeto é um relógio analógico simples, desenvolvido em JavaScript, HTML e CSS. Conta também com um botão para alternar entre os modos claro e escuro.",
-      technologies: "JavaScript, HTML, CSS",
-      slug: "relogio-analogico"
+        "O jogo conta com todas as funcionalidades básicas do xadrez, incluindo os movimentos especiais como Castling, En Passant e Promotion.",
+      technologies: "Java",
+      slug: "jogo-de-xadrez"
     }
     // Adicione outros projetos conforme necessário
   ]  
