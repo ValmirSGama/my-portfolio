@@ -22,6 +22,14 @@ export const projects = [
       description: "O jogo conta com todas as funcionalidades básicas do xadrez, incluindo os movimentos especiais como Castling, En Passant e Promotion.",
       technologies: "Java",
       link: "/projects/jogo-de-xadrez"
+    },
+    {
+      alt: "Imagem Thumbnail Book-Store",
+      src: "/images/Thumbnail Book-Store.png",
+      title: "Book Store",
+      description: "O projeto Book Store é uma homepage de e-commerce para a compra e divulgação de livros, focada em fornecer uma experiência de usuário otimizada e intuitiva.",
+      technologies: "HTML, CSS, JavaScript",
+      link: "/projects/book-store"
     }
     // Adicione outros projetos conforme necessário
   ]  

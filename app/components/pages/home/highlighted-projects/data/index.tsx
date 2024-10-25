@@ -1,12 +1,12 @@
 export const projects = [
     {
-      alt: "Imagem Thumbnail To Do List",
-      src: "/images/Thumbnail To Do List.png",
-      title: "To Do List",
+      alt: "Imagem Thumbnail Book-Store",
+      src: "/images/Thumbnail Book-Store.png",
+      title: "Book Store",
       description:
-        "Este é um projeto de uma aplicação simples e eficiente de lista de tarefas (To-Do List), desenvolvida com o objetivo de facilitar o gerenciamento e a organização de atividades diárias.",
-      technologies: "JavaScript, HTML, CSS",
-      slug: "to-do-list"
+        "O projeto Book Store é uma homepage de e-commerce para a compra e divulgação de livros, focada em fornecer uma experiência de usuário otimizada e intuitiva.",
+      technologies: "HTML, CSS, JavaScript",
+      slug: "book-store"
     },
     {
       alt: "Imagem Thumbnail Jogo de Xadrez",

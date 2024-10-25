@@ -93,5 +93,46 @@ export const projects = [
           videoTitle: "Demo do Jogo de Xadrez"
         }
       ]
-    }    
+    },
+    {
+      slug: "book-store",
+      title: "Book Store",
+      description: {
+        raw: `
+          <h5>Tecnologias Utilizadas</h5>
+          <ul>
+            <li>HTML5: Estrutura e seções do site.</li>
+            <li>CSS3: Estilos, layout responsivo e animações.</li>
+            <li>JavaScript: Funcionalidades interativas.</li>
+            <li>Swiper.js: Carrossel de imagens para exibição de livros.</li>
+            <li>Font Awesome: Ícones personalizados.</li>
+          </ul>
+          <br/>
+          <h5>Funcionalidades</h5>
+          <ul>
+            <li>Header com navegação e ícones interativos (carrinho, login e busca).</li>
+            <li>Home Section com banners promocionais, carrossel de livros e botão de compra.</li>
+            <li>Ícones de benefícios, incluindo frete grátis, pagamento seguro e suporte 24/7.</li>
+            <li>Seção de login com formulário interativo.</li>
+            <li>Layout responsivo para dispositivos móveis.</li>
+          </ul>
+
+        `
+      },
+      technologies: [
+        { name: "HTML" },
+        { name: "CSS" },
+        { name: "JavaScript" }
+      ],
+      githubUrl: "https://github.com/ValmirSGama/book-store",
+      liveProjectUrl: "https://valbook-store.vercel.app/",
+      pageThumbnail: { src: "/images/Page Thumbnail Book-Store.png" },
+      sections: [
+        {
+          title: "Home",
+          image: { src: "/images/Thumbnail Book-Store.png" }
+        }
+      ]
+    }
+    // Adicione outros projetos conforme necessário  
 ]
