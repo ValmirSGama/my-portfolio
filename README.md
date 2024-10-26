@@ -10,7 +10,7 @@
 
 # Template Portfólio
 
-![Tamplate](public/images/Folha%20de%20rosto%20do%20Portfolio.png)
+![Tamplate](public/images/FolhaDeRostoDoPortfolio.png)
 
 "Este é o template que utilizei para criar meu portfólio com as ferramentas mais recentes de desenvolvimento web. O template inclui Next.js 13, Tailwind CSS, TypeScript e Framer Motion. Na primeira versão, sua estrutura consumia dados dinâmicos via CMS do Hygraph; agora, está reestruturado para consumir dados estáticos."
 
