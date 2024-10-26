@@ -23,7 +23,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
       <motion.div
         className="absolute inset-0 z-[-1]"
         style={{
-          background: `url(/images/hero-bg.png) no-repeat center/cover, url(https://s3.envato.com/files/240920639/Digital%20World%20Map%2001_preview1%20.JPG) no-repeat center/cover`
+          background: `url(/images/hero-bg.png) no-repeat center/cover, url(${project.pageThumbnail.src}) no-repeat center/cover`
         }}
         initial={{ opacity: 0, scale: 1.3 }}
         animate={{ opacity: 1, scale: 1 }}

@@ -36,7 +36,7 @@ export async function generateMetadata({
   }
 
   return {
-    metadataBase: new URL('https://seu-dominio.com'), // Defina o domínio correto aqui
+    metadataBase: new URL('https://my-portfolio-3jdd3s2l6-valmir-sales-gamas-projects.vercel.app'), // Defina o domínio correto aqui
     title: project.title,
     description: project.description.raw.replace(/<[^>]+>/g, ''), // Remove tags HTML para a descrição
     openGraph: {

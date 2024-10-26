@@ -26,11 +26,11 @@ export const projects = [
       ],
       githubUrl: "https://github.com/ValmirSGama/relogio-js",
       liveProjectUrl: "https://val-relogio-analogico.vercel.app/",
-      pageThumbnail: { src: "/images/Page Thumbnail Relogio Analogico.png" },
+      pageThumbnail: { src: "/images/PageThumbnailRelogioAnalogico.png" },
       sections: [
         {
           title: "Home",
-          image: { src: "/images/Thumbnail Relogio Analogico.png" }
+          image: { src: "/images/ThumbnailRelogioAnalogico.png" }
         }
       ]
     },
@@ -57,11 +57,11 @@ export const projects = [
       ],
       githubUrl: "https://github.com/ValmirSGama/To-Do-List.git",
       liveProjectUrl: "https://to-do-list-opal-seven-68.vercel.app/",
-      pageThumbnail: { src: "/images/Page Thumbnail To Do List.png" },
+      pageThumbnail: { src: "/images/PageThumbnailToDoList.png" },
       sections: [
         {
           title: "Home",
-          image: { src: "/images/Thumbnail To Do List.png" }
+          image: { src: "/images/ThumbnailToDoList.png" }
         }
       ]
     },
@@ -84,11 +84,11 @@ export const projects = [
       ],
       githubUrl: "https://github.com/ValmirSGama/sistemaJogoDeXadrez-Java",
       liveProjectUrl: "https://valmirsgama.github.io/sistemaJogoDeXadrez-Java/",
-      pageThumbnail: { src: "/images/Page Thumbnail Jogo de Xadrez.png" },
+      pageThumbnail: { src: "/images/PageThumbnailJogoDeXadrez.png" },
       sections: [
         {
           title: "Home",
-          image: { src: "/images/Page Thumbnail Jogo de Xadrez.png"},
+          image: { src: "/images/ThumbnailJogoDeXadrez.png"},
           videoUrl: "/videos/Demo-Xadrez.mp4",
           videoTitle: "Demo do Jogo de Xadrez"
         }
@@ -126,11 +126,11 @@ export const projects = [
       ],
       githubUrl: "https://github.com/ValmirSGama/book-store",
       liveProjectUrl: "https://valbook-store.vercel.app/",
-      pageThumbnail: { src: "/images/Page Thumbnail Book-Store.png" },
+      pageThumbnail: { src: "/images/PageThumbnailBook-Store.png" },
       sections: [
         {
           title: "Home",
-          image: { src: "/images/Thumbnail Book-Store.png" }
+          image: { src: "/images/ThumbnailBook-Store.png" }
         }
       ]
     }
