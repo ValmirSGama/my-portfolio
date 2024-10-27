@@ -7,11 +7,17 @@ import { motion } from 'framer-motion'
 
 export const PageIntroduction = () => {
   return (
-    <section className="w-full h-[450px] lg:h-[630px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center px-2"
-      style={{
-        background: `url(/images/hero-bg.png) no-repeat center/cover, url(/images/DigitalWorldMap.jpg) no-repeat center/cover`
-      }}
-    >
+    <section className="w-full h-[450px] lg:h-[630px] flex flex-col items-center justify-center px-2 overflow-hidden relative">
+      <motion.div
+        className="absolute inset-0 z-[-1]"
+        style={{
+          background: `url(/images/hero-bg.png) no-repeat center/cover, url(/images/DigitalWorldMap.jpg) no-repeat center/cover`
+        }}
+        initial={{ opacity: 0, scale: 1.3 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+      />
+
       <SectionTitle
         subtitle="projetos"
         title="Meus Projetos"
