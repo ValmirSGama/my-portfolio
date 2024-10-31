@@ -4,6 +4,13 @@ export const projects = [
       title: "Relógio Analógico",
       description: {
         raw: `
+          <h5>Funcionalidades</h5>
+          <ul>
+            <li>Switch para "Ligar Som" e "Desligar Som".</li>
+            <li>Alternância entre modos claro/escuro.</li>
+            <li>Interface responsiva.</li>
+          </ul>
+          <br/>
           <h5>Tecnologias Utilizadas</h5>
           <ul>
             <li>HTML5: Estrutura básica do relógio.</li>
@@ -11,12 +18,6 @@ export const projects = [
             <li>JavaScript: Lógica dos ponteiros.</li>
           </ul>
           <br/>
-          <h5>Funcionalidades</h5>
-          <ul>
-            <li>Switch para "Ligar Som" e "Desligar Som".</li>
-            <li>Alternância entre modos claro/escuro.</li>
-            <li>Interface responsiva.</li>
-          </ul>
         `
       },
       technologies: [
@@ -99,15 +100,6 @@ export const projects = [
       title: "Book Store",
       description: {
         raw: `
-          <h5>Tecnologias Utilizadas</h5>
-          <ul>
-            <li>HTML5: Estrutura e seções do site.</li>
-            <li>CSS3: Estilos, layout responsivo e animações.</li>
-            <li>JavaScript: Funcionalidades interativas.</li>
-            <li>Swiper.js: Carrossel de imagens para exibição de livros.</li>
-            <li>Font Awesome: Ícones personalizados.</li>
-          </ul>
-          <br/>
           <h5>Funcionalidades</h5>
           <ul>
             <li>Header com navegação e ícones interativos (carrinho, login e busca).</li>
@@ -115,6 +107,15 @@ export const projects = [
             <li>Ícones de benefícios, incluindo frete grátis, pagamento seguro e suporte 24/7.</li>
             <li>Seção de login com formulário interativo.</li>
             <li>Layout responsivo para dispositivos móveis.</li>
+          </ul>
+          <br/>
+          <h5>Tecnologias Utilizadas</h5>
+          <ul>
+            <li>HTML5: Estrutura e seções do site.</li>
+            <li>CSS3: Estilos, layout responsivo e animações.</li>
+            <li>JavaScript: Funcionalidades interativas.</li>
+            <li>Swiper.js: Carrossel de imagens para exibição de livros.</li>
+            <li>Font Awesome: Ícones personalizados.</li>
           </ul>
         `
       },
@@ -138,19 +139,19 @@ export const projects = [
       title: "Site Academia",
       description: {
         raw: `
+           <h5>Funcionalidades</h5>
+          <ul>
+            <li>Navegação interativa com menu responsivo, alternando entre estado aberto e fechado.</li>
+            <li>Carrosséis nas seções de destaques, depoimentos e blog.</li>
+            <li>Design responsivo adaptado para desktops e dispositivos móveis.</li>
+          </ul>
+          <br/>
           <h5>Tecnologias Utilizadas</h5>
           <ul>
             <li>HTML5: Estrutura semântica para organizar as seções principais.</li>
             <li>CSS3: Estilos visuais e responsivos.</li>
             <li>JavaScript: Scripts para interação e dinamismo.</li>
             <li>Swiper.js: Configuração dos sliders com transições automáticamente e controles de navegação.</li>
-          </ul>
-          <br/>
-          <h5>Funcionalidades</h5>
-          <ul>
-            <li>Navegação interativa com menu responsivo, alternando entre estado aberto e fechado.</li>
-            <li>Carrosséis nas seções de destaques, depoimentos e blog.</li>
-            <li>Design responsivo adaptado para desktops e dispositivos móveis.</li>
           </ul>
         `
       },
