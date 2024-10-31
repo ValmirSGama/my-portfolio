@@ -116,7 +116,6 @@ export const projects = [
             <li>Seção de login com formulário interativo.</li>
             <li>Layout responsivo para dispositivos móveis.</li>
           </ul>
-
         `
       },
       technologies: [
@@ -131,6 +130,42 @@ export const projects = [
         {
           title: "Home",
           image: { src: "/images/ThumbnailBook-Store.png" }
+        }
+      ]
+    },
+    {
+      slug: "site-academia",
+      title: "Site Academia",
+      description: {
+        raw: `
+          <h5>Tecnologias Utilizadas</h5>
+          <ul>
+            <li>HTML5: Estrutura semântica para organizar as seções principais.</li>
+            <li>CSS3: Estilos visuais e responsivos.</li>
+            <li>JavaScript: Scripts para interação e dinamismo.</li>
+            <li>Swiper.js: Configuração dos sliders com transições automáticamente e controles de navegação.</li>
+          </ul>
+          <br/>
+          <h5>Funcionalidades</h5>
+          <ul>
+            <li>Navegação interativa com menu responsivo, alternando entre estado aberto e fechado.</li>
+            <li>Carrosséis nas seções de destaques, depoimentos e blog.</li>
+            <li>Design responsivo adaptado para desktops e dispositivos móveis.</li>
+          </ul>
+        `
+      },
+      technologies: [
+        { name: "HTML" },
+        { name: "CSS" },
+        { name: "JavaScript" }
+      ],
+      githubUrl: "https://github.com/ValmirSGama/site-academia",
+      liveProjectUrl: "https://valsite-academia.vercel.app/",
+      pageThumbnail: { src: "/images/PageThumbnailSiteAcademiaBanner.png" },
+      sections: [
+        {
+          title: "Home",
+          image: { src: "/images/ThumbnailSiteAcademia.png" }
         }
       ]
     }

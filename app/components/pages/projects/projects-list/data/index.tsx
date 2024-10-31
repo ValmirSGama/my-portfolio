@@ -30,6 +30,14 @@ export const projects = [
       description: "O projeto Book Store é uma homepage de e-commerce para a compra e divulgação de livros, focada em fornecer uma experiência de usuário otimizada e intuitiva.",
       technologies: "HTML, CSS, JavaScript",
       link: "/projects/book-store"
+    },
+    {
+      alt: "Imagem Thumbnail Site Academia",
+      src: "/images/PageThumbnailSiteAcademia.png",
+      title: "Site Academia",
+      description: "Este projeto é uma homepage para um site de academia, desenvolvida com HTML, CSS e JavaScript, e é composta de seções dinâmicas que ajudam a fornecer uma experiência de navegação intuitiva e visualmente atraente.",
+      technologies: "HTML, CSS, JavaScript",
+      link: "/projects/site-academia"
     }
     // Adicione outros projetos conforme necessário
   ]  
