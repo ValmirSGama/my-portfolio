@@ -29,8 +29,8 @@ export const Header = () => {
           <Image
             src="/images/LogoValmir.svg"
             alt="Logo VALMIR DEV"
-            width={118}
-            height={109}
+            width={58}
+            height={49}
           />
         </Link>
 
