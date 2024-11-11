@@ -1,6 +1,6 @@
 'use client'
 
-import { getRelativeTimeString } from '@/app/utils/get-relative-time'
+import { getDetailedRelativeTimeString } from '@/app/utils/get-detailed-relative-time'
 
 type KnownTechProps = {
   tech: {
@@ -11,10 +11,10 @@ type KnownTechProps = {
 }
 
 export const KnownTech = ({ tech }: KnownTechProps) => {
-  const relativeTime = getRelativeTimeString(
+  const detailedTime = getDetailedRelativeTimeString(
     new Date(tech.startDate),
     'pt-BR',
-  ).replace('há ', '')
+  )
 
   return (
     <div className="p-6 rounded-lg bg-gray-600/20 text-gray-500 flex flex-col gap-2 hover:text-emerald-500 hover:bg-gray-600/30 transition-all">
@@ -22,7 +22,7 @@ export const KnownTech = ({ tech }: KnownTechProps) => {
         <p className="font-medium">{tech.tech}</p>
         {tech.icon}
       </div>
-      <span>{relativeTime} de experiência</span>
+      <span>{detailedTime} de experiência</span>
     </div>
   )
 }

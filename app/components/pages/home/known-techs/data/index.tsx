@@ -1,6 +1,7 @@
-import { FaAws, FaDocker, FaJava } from 'react-icons/fa'
+import { FaAws, FaCss3Alt, FaDocker, FaHtml5, FaJava } from 'react-icons/fa'
 import { SiKubernetes, SiSpringboot } from "react-icons/si"
 import { GrMysql } from "react-icons/gr"
+import { IoLogoJavascript } from 'react-icons/io'
 
 export const staticTechs = [
   {
@@ -32,5 +33,21 @@ export const staticTechs = [
     tech: 'Kubernetes',
     icon: <SiKubernetes size={24} />,
     startDate: '2024-05-13'
+  },
+  {
+    tech: 'HTML',
+    icon: <FaHtml5 size={24} />,
+    startDate: '2023-10-5'
+  },
+  {
+    tech: 'CSS',
+    icon: <FaCss3Alt size={24} />,
+    startDate: '2023-10-5'
+  },
+  {
+    tech: 'JavaScript',
+    icon: <IoLogoJavascript size={24} />,
+    startDate: '2023-10-5'
   }
+  // Adicione mais competências conforme necessário
 ]

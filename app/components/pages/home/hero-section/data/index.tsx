@@ -5,6 +5,9 @@ export const technologies = [
     'AWS',
     'Docker',
     'Kubernetes',
+    'HTML',
+    'CSS',
+    'JavaScript'
   ]
   
   export const introduction = `
