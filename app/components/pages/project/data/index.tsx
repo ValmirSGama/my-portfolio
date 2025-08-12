@@ -84,7 +84,7 @@ export const projects = [
         { name: "Java" }
       ],
       githubUrl: "https://github.com/ValmirSGama/sistemaJogoDeXadrez-Java",
-      liveProjectUrl: "https://valmirsgama.github.io/sistemaJogoDeXadrez-Java/",
+      liveProjectUrl: "",
       pageThumbnail: { src: "/images/PageThumbnailJogoDeXadrez.png" },
       sections: [
         {
@@ -169,6 +169,44 @@ export const projects = [
           image: { src: "/images/ThumbnailSiteAcademia.png" }
         }
       ]
+    },
+    {
+  slug: "controle-financeiro-pessoal",
+  title: "Controle Financeiro Pessoal",
+  description: {
+    raw: `
+      <h5>Sobre o projeto</h5>
+      <ul>
+        <li>Aplicativo fullstack para gestão financeira pessoal, ainda em desenvolvimento, projetado para mais de 30 funcionalidades.</li>
+        <li>Permite acompanhar receitas, despesas, cartões de crédito, contas a pagar, orçamentos e relatórios detalhados.</li>
+        <li>Integração entre back-end em Node.js e front-end em Next.js para garantir alta performance e experiência fluida.</li>
+      </ul>
+      <br/>
+      <h5>Principais funcionalidades</h5>
+      <ul>
+        <li>Registro e categorização de despesas e receitas.</li>
+        <li>Gestão de cartões de crédito com ciclo de fatura, fechamento e pagamento.</li>
+        <li>Alertas automáticos para contas a pagar e controle de orçamento mensal.</li>
+        <li>Gráficos e relatórios para análise de gastos e balanço financeiro.</li>
+      </ul>
+    `
+  },
+  technologies: [
+    { name: "Node.js" },
+    { name: "Next.js" },
+    { name: "React" },
+    { name: "TailwindCSS" },
+    { name: "MongoDB" }
+  ],
+  githubUrl: "",
+  liveProjectUrl: "https://www.linkedin.com/posts/valmir-sales-tech_nextjs-nodejs-mongodb-activity-7350639908400656385-jy8s?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAzFsUsB8XZyxGD1ZaFSiSdWzX0ceTfh9Os",
+  pageThumbnail: { src: "/images/PageThumbnailControleFinanceiro.png" },
+  sections: [
+    {
+      title: "Home",
+      image: { src: "/images/ThumbnailControleFinanceiro1.png" }
     }
+  ]
+}
     // Adicione outros projetos conforme necessário  
 ]
