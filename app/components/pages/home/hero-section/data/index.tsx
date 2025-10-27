@@ -21,6 +21,6 @@ export const technologies = [
   export const socials: { icon: 'FaGithub' | 'FaLinkedin' | 'FaInstagram' | 'FaYoutube'; url: string }[] = [
     { icon: 'FaGithub', url: 'https://github.com/ValmirSGama' },
     { icon: 'FaLinkedin', url: 'https://www.linkedin.com/in/valmir-sales-tech/' },
-    { icon: 'FaInstagram', url: 'https://www.instagram.com/valmir_s_g/' },
+    { icon: 'FaInstagram', url: 'https://www.instagram.com/valmirfullstack' },
     { icon: 'FaYoutube', url: 'https://www.youtube.com/@valmirSG/featured?app=desktop' },
   ]  
