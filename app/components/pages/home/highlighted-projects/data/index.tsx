@@ -1,5 +1,14 @@
 export const projects = [
     {
+      alt: "Imagem Thumbnail MyFinances",
+      src: "/images/ThumbnailMyFinances.png",
+      title: "MyFinances",
+      description:
+        "O MyFinances é uma aplicação web para controle e gestão financeira pessoal.",
+      technologies: "Node.js, Next.js, React, TailwindCSS, MongoDB",
+      slug: "controle-financeiro-pessoal"
+    },
+    {
       alt: "Imagem Thumbnail Book-Store",
       src: "/images/ThumbnailBook-Store.png",
       title: "Book Store",
