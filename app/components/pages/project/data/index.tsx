@@ -177,9 +177,9 @@ export const projects = [
     raw: `
       <h5>Sobre o projeto</h5>
       <ul>
-        <li>Aplicativo fullstack para gestão financeira pessoal, ainda em desenvolvimento, projetado para mais de 30 funcionalidades.</li>
-        <li>Permite acompanhar receitas, despesas, cartões de crédito, contas a pagar, orçamentos e relatórios detalhados.</li>
-        <li>Integração entre back-end em Node.js e front-end em Next.js para garantir alta performance e experiência fluida.</li>
+        <li>Aplicativo para gestão financeira pessoal cujo MVP atualmente encontra-se completo, em análise do plano de marketing e de infraestrutura para escolha do servidor de produção ideal.</li>
+        <li>O aplicativo permite acompanhar receitas, despesas, cartões de crédito, contas a pagar, orçamentos e relatórios detalhados.</li>
+        <li>A integração entre back-end em Node.js e front-end em Next.js garantiu alta performance e experiência fluida.</li>
       </ul>
       <br/>
       <h5>Principais funcionalidades</h5>
@@ -199,7 +199,7 @@ export const projects = [
     { name: "MongoDB" }
   ],
   githubUrl: "",
-  liveProjectUrl: "https://www.linkedin.com/posts/valmir-sales-tech_nextjs-nodejs-mongodb-activity-7350639908400656385-jy8s?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAzFsUsB8XZyxGD1ZaFSiSdWzX0ceTfh9Os",
+  liveProjectUrl: "https://www.linkedin.com/posts/valmir-sales-tech_finaliza%C3%A7%C3%A3o-de-um-saas-oportunidade-de-crescimento-activity-7426589919529295872-8mNQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAzFsUsB8XZyxGD1ZaFSiSdWzX0ceTfh9Os",
   pageThumbnail: { src: "/images/PageThumbnailControleFinanceiro.png" },
   sections: [
     {

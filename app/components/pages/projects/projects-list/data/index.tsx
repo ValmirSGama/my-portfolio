@@ -35,7 +35,7 @@ export const projects = [
       alt: "Imagem Thumbnail Controle Financeiro",
       src: "/images/Thumbnailcontrolefinanceiro.png",
       title: "Controle Financeiro Pessoal",
-      description: "💸 MyFinances – Sistema de Gestão Financeira Pessoal, é uma aplicação web fullstack que está em desenvolvimento para controle de finanças pessoais.",
+      description: "💸 MyFinances – Sistema de Gestão Financeira Pessoal, é uma aplicação web fullstack para controle de finanças pessoais.",
       technologies: "Node.js, Next.js, React, TailwindCSS, MongoDB",
       link: "/projects/controle-financeiro-pessoal"
     },

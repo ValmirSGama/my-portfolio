@@ -13,7 +13,7 @@ export const technologies = [
   
   export const introduction = `
     Formado em <b>Análise e Desenvolvimento de Sistemas</b>, com expertise no 
-    <b>Back-end</b>. Atualmente, estou desenvolvendo uma aplicação <b>Full Stack</b> de <b>Controle Financeiro Pessoal</b>, 
+    <b>Back-end</b>. Para ampliar as habilidades a nível fullstack, me desafiei criar um aplicativo de <b>Controle Financeiro Pessoal</b>, o qual passei por todo o seu ciclo de desenvolvimento até a conclusão do <b>MVP</b>. Tenho experiência em Java, Spring Boot, MySQL, AWS, Docker e Kubernetes,
     crio soluções escaláveis e eficientes com foco em performance e segurança. 
     Estou em busca de novas oportunidades. Vamos levar sua ideia para o digital? 
   `
