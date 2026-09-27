@@ -84,7 +84,7 @@ export const projects = [
         { name: "Java" }
       ],
       githubUrl: "https://github.com/ValmirSGama/sistemaJogoDeXadrez-Java",
-      liveProjectUrl: "",
+      liveProjectUrl: "https://jogo-de-xadrez.vercel.app/",
       pageThumbnail: { src: "/images/PageThumbnailJogoDeXadrez.png" },
       sections: [
         {
