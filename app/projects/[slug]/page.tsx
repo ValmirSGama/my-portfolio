@@ -5,12 +5,13 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 type ProjectProps = {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
-export default function Project({ params: { slug } }: ProjectProps) {
+export default async function Project({ params }: ProjectProps) {
+  const { slug } = await params
   const project = projects.find((project) => project.slug === slug)
 
   if (!project) return notFound()
@@ -24,8 +25,9 @@ export default function Project({ params: { slug } }: ProjectProps) {
 }
 
 export async function generateMetadata({
-  params: { slug },
+  params,
 }: ProjectProps): Promise<Metadata> {
+  const { slug } = await params
   const project = projects.find((project) => project.slug === slug)
 
   if (!project) {
